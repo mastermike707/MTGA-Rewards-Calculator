@@ -81,18 +81,10 @@
       ]
     },
     "win": {
-      "target": [
-        "nsis",
-        "msi"
-      ]
+      "target": ["nsis", "msi"]
     },
     "linux": {
-      "target": [
-        "deb",
-        "rpm",
-        "snap",
-        "AppImage"
-      ],
+      "target": ["deb", "rpm", "snap", "AppImage"],
       "category": "Development"
     },
     "directories": {
@@ -110,22 +102,10 @@
     "type": "git",
     "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
   },
-  "author": {
-    "name": "Electron React Boilerplte Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
-  },
+  "author": "Electron React Boilerplte Maintainers <electronreactboilerplate@gmail.com> (https://electron-react-boilerplate.js.org)",
   "contributors": [
-    {
-      "name": "Vikram Rangaraj",
-      "email": "vikr01@icloud.com",
-      "url": "https://github.com/vikr01"
-    },
-    {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    }
+    "Vikram Rangaraj <vikr01@icloud.com> (https://github.com/vikr01)",
+    "Amila Welihinda <amilajack@gmail.com> (https://github.com/amilajack)"
   ],
   "license": "MIT",
   "bugs": {
@@ -149,17 +129,11 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/internals/mocks/fileMock.js",
       "\\.(css|less|sass|scss)$": "identity-obj-proxy"
     },
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json"
-    ],
+    "moduleFileExtensions": ["js", "jsx", "json"],
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     },
-    "setupFiles": [
-      "./internals/scripts/CheckBuiltsExist.js"
-    ]
+    "setupFiles": ["./internals/scripts/CheckBuiltsExist.js"]
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
@@ -204,7 +178,6 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4",
-    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-formatter-pretty": "^2.0.0",
@@ -279,5 +252,8 @@
   "collective": {
     "url": "https://opencollective.com/electron-react-boilerplate-594"
   },
-  "browserslist": "electron 1.6"
+  "browserslist": "electron 1.6",
+  "directories": {
+    "test": "test"
+  }
 }

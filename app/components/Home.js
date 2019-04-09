@@ -40,7 +40,7 @@ export default class Home extends Component {
         sets: setsConst
       });
       console.log(this.state);
-      this.forceUpdate();
+      //this.forceUpdate();
     });
   }
 
@@ -68,8 +68,3 @@ export default class Home extends Component {
     );
   }
 }
-
-
-
-
-
